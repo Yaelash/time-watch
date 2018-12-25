@@ -77,7 +77,7 @@ def main():
     try:
         page = LoginPage(chrome)
         page.navigate()
-        punch_screen = page.fill_cells(comp=5392, emp=56, pw='xLItTgDl')
+        punch_screen = page.fill_cells(comp=****, emp=**, pw='******')
         update_time = punch_screen.go_to_update_punch()
         update_time.update()
 
